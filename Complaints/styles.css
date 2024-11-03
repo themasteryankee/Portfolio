@@ -1,0 +1,49 @@
+QWidget {
+    background-color: #89add5;
+}
+
+QPushButton {
+    background-color: #e8e8e8;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #dcdcdc;
+}
+
+QPushButton:pressed {
+    background-color: #b6babf;
+    color: #ffffff;
+}
+
+QTableWidget {
+    background-color: #77aae4;
+    border: 3px solid #ccc;
+    gridline-color: #cce4ff;
+    font-size: 14px;
+}
+
+QTableWidget::item {
+    padding: 7px;
+}
+
+QHeaderView::section {
+    background-color: #dfdfdf;
+    color: #2e2e2e;
+    padding: 1px;
+    border: 1px solid #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QHeaderView::section:hover {
+    background-color: #a3a3a3;
+}
+
+QHeaderView::section:pressed {
+    background-color: #858585;
+}
